@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-white bg-opacity-80;
+    backdrop-filter: blur(5px);
+}
+
+mark{
+    background-color: #ffdd4b;
+}
+
+main {
+	width: 100%;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+
+}
